@@ -1,0 +1,13 @@
+html {
+  font-family: "Poppins";
+}
+
+.logo {
+  font-size: 20px;
+}
+.header-background-image {
+  background-image: url('./img/header-shapes-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
