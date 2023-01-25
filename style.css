@@ -15,3 +15,13 @@ html {
 .works {
     background-color: #e5e5e5;
 }
+
+.tags {
+    background: #EBEBFF;
+    color: #6070FF;
+}
+
+.see-button {
+    border: 1px solid #396df2;
+    color: #396df2;
+}
