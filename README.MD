@@ -25,7 +25,7 @@
 
 # 📖 Name of the project <a id="about-project"></a>
 
-> Project created for...
+> Project created with pedagogical purposes: learning how to use Bootstrap
 
 ## 🛠 Built With <a id="built-with"></a>
 
@@ -36,7 +36,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="#">HTML & CSS</a></li>
+    <li><a href="#">HTML, CSS & Bootstrap</a></li>
   </ul>
 </details>
 
@@ -58,9 +58,8 @@
 
 ### Key Features <a id="key-features"></a>
 
-- Feature
-- Feature
-- Feature
+- Show's the best of my work as a software developer
+- Responsive web
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +84,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-> git clone https://github.com/DavidEspinoG/portfolio.git
+> git clone https://github.com/DavidEspinoG/Cosmos_David_Bootstrap
 > (you can open it via live server in VS)
 
 ### Setup
@@ -124,6 +123,12 @@ N/A
 
 
 👤 **David Espino**
+
+- GitHub: [@DavidEspinoG](https://github.com/DavidEspinoG)
+- Twitter: [@DavidEspinoG](https://twitter.com/DavidEspinoG)
+- LinkedIn: [davidespinog](https://linkedin.com/in/davidespinog)
+
+👤 **Cosmosha**
 
 - GitHub: [@DavidEspinoG](https://github.com/DavidEspinoG)
 - Twitter: [@DavidEspinoG](https://twitter.com/DavidEspinoG)
