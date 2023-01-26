@@ -1,13 +1,93 @@
+:root {
+  --mainFont: 'Poppins';
+}
+
 html {
-  font-family: "Poppins";
+  font-family: var(--mainFont);
 }
 
 .logo {
   font-size: 20px;
+  color: #6070ff;
+  font-weight: 700;
 }
+
+.main_navigation a {
+  color: #6070ff;
+}
+
 .header-background-image {
   background-image: url('./img/header-shapes-mobile.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.works {
+  background-color: #e5e5e5;
+}
+
+.tags {
+  background: #ebebff;
+  color: #6070ff;
+}
+
+.see-button {
+  border: 1px solid #396df2;
+  color: #396df2;
+}
+
+nav {
+  color: #6070ff;
+}
+
+.contact {
+  background-color: #6070ff;
+  background-image: url('./img/contact-background.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  border-radius: 80px 0 0 0;
+}
+
+.submit_button {
+  color: #396df2;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.background-gray {
+  background-color: #e5e5e5;
+}
+
+.desktop-nav a {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .header-background-image {
+    background-image: url('./img/Header-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .contact-content {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-content {
+    max-width: 40%;
+  }
+}
