@@ -4,6 +4,12 @@ html {
 
 .logo {
     font-size: 20px;
+    color: #6070FF;
+    font-weight: 700;
+}
+
+.main_navigation a{
+    color: #6070FF;
 }
 
 .header-background-image {
@@ -28,4 +34,56 @@ html {
 
 nav {
     color: #6070FF;
+}
+
+.contact {
+  background-color: #6070FF;
+  background-image: url('./img/contact-background.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  border-radius: 80px 0 0 0;  
+}
+
+.submit_button {
+ color: #396df2;
+}
+
+form {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ gap: 15px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.background-gray {
+  background-color: #e5e5e5;
+}
+
+.desktop-nav a{
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .header-background-image {
+    background-image: url('./img/Header-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .contact-content {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-content {
+    max-width: 40%;
+  }
 }

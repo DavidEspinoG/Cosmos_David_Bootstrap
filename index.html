@@ -16,34 +16,18 @@
 </head>
 
 <body>
-    <!-- <div class="text-primary d-flex justify-content-between px-4 py-1">
+    <div class="d-flex justify-content-between px-4 py-1">
         <h2 class="logo">My logo</h2>
         <div class="d-flex align-items-center">
-            <i class="fa-solid fa-bars"></i>
+            <i class="d-md-none fa-solid fa-bars"></i>
+            <nav class="main_navigation desktop-nav d-none d-md-flex gap-3">
+                <a href="">Porfolio</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </nav>
         </div>
-    </div> -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid  px-5">
-            <a class="navbar-brand text-primary" href="#">My logo</a>
-            <button class="navbar-toggler text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <div class="collapse navbar-collapse text-primary" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto mb-2 text-danger-emphasis mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-
-                </ul>
-            </div>
-        </div>
-    </nav>
+    </div>
+    
     <div class="bg-white">
         <section class="header-background-image py-5">
             <div class="container p-5">
@@ -71,10 +55,10 @@
             </div>
         </section>
 
-        <section class="works px-3 py-5 ">
-            <div class="container bg-white d-flex flex-column p-3 rounded-4 mb-5 mt-2">
+        <section class="works px-3 py-5">
+            <div class="container bg-white d-flex flex-column flex-lg-row gap-lg-3  p-3 rounded-4 mb-5 mt-2">
                 <img src="./img/Portfolio.png" alt="Portfolio1 image">
-                <div class="">
+                <div>
                     <h2 class="mt-2">Tonic</h2>
                     <div class="">
                         <ul class="list-unstyled d-flex ">
@@ -113,7 +97,7 @@
                 </div>
             </div>
 
-            <div class="container bg-white d-flex flex-column p-3 rounded-4 mb-5 mt-2">
+            <div class="container bg-white d-flex flex-column flex-lg-row-reverse gap-lg-3 p-3 rounded-4 mb-5 mt-2">
                 <img src="./img/Portfolio2.png" alt="Portfolio1 image">
                 <div class="">
                     <h2 class="mt-2">Tonic</h2>
@@ -154,7 +138,7 @@
                 </div>
             </div>
 
-            <div class="container bg-white d-flex flex-column p-3 rounded-4">
+            <div class="container bg-white d-flex flex-column flex-lg-row gap-lg-3 p-3 rounded-4">
                 <img src="./img/Portfolio3.png" alt="Portfolio1 image">
                 <div class="">
                     <h2 class="mt-2">Tonic</h2>
@@ -194,8 +178,26 @@
                     </div>
                 </div>
             </div>
-
         </section>
-</body>
+        <div class="background-gray">
+            <section class="contact px-3 py-5">
+                <div class="container contact-content d-flex gap-3 flex-column">
+                    <h2 class="text-center text-white">Contact me</h2>
+                    <p class="text-center text-white">If you had an aplication you're intersed in developing, a feature that you need build or a project
+                        that needs coding. I'd love to help you
+                    </p>
+                    <form>
+                        <input placeholder="Your name: " type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input placeholder="Your email: " type="password" class="form-control" id="exampleInputPassword1">
+                        <textarea  class="form-control" placeholder="Your message: "></textarea>
+                        <div>
+                            <button type="submit" class="btn bg-white submit_button p-2">Get in touch</button>
+                        </div>
+                      </form>
+                </div>
+            </section>
 
+        </div>
+        
+</body>
 </html>
